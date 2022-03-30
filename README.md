@@ -67,7 +67,7 @@ GPU intensive
 - Responsibility: I assume that we have dataset which annotated before. I skip the step data gathering stage.
 - Tech: file storage(minio or s3)
 
-#Traffic estimation
+# Traffic estimation
 - Network: Camera using **RTSP** to send data as stream, average fps ~ 60 (it depends on camera models)
 ```10 camera => ~ 600 fps, 100 camera => ~ 6000 fps```
 
